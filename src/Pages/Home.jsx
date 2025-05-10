@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import QualityInformation from '../components/V1/QualityInformation.jsx'
-import Procurenet from '../components/V1/Procurenet.jsx'
-import ImpactStory from '../components/V1/ImpactStory.jsx'
-import OurWork from '../components/V1/OurWork.jsx'
-import DeliveryProcess from '../components/V1/DeliveryProcess.jsx'
+import QualityInformation from '../components/V1/QualityInformation'
+import Procurenet from '../components/V1/Procurenet'
+import ImpactStory from '../components/V1/ImpactStory'
+import OurWork from '../components/V1/OurWork'
+import DeliveryProcess from '../components/V1/DeliveryProcess'
 
 
 
