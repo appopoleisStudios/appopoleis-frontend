@@ -1,12 +1,12 @@
 import ProcurenetImage from "../../assets/Images/Home/Procurenet.png";
-import { PROCURENET_DATA } from "../../Utils/data/procurenetData";
+import { IMPACTSTORY_DATA } from "../../Utils/data/ImpactStory";
 
-function Procurenet() {
-  const { title, heading, introduction, features, image } = PROCURENET_DATA;
+function ImpactStory() {
+  const { title, heading, introduction, features, image } = IMPACTSTORY_DATA;
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <div className="flex flex-col md:flex-row gap-8 items-center">
+      <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
         <div className="w-full md:w-1/2">
           <img
             src={ProcurenetImage}
@@ -52,4 +52,4 @@ function Procurenet() {
   );
 }
 
-export default Procurenet;
+export default ImpactStory;

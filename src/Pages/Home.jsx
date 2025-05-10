@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import QualityInformation from '../Components/V1/QualityInformation'
 import Procurenet from '../Components/V1/Procurenet'
+import ImpactStory from '../components/V1/ImpactStory'
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
             <h1 className='text-red-700'>Home Page Coming Soon</h1>
             <QualityInformation />
             <Procurenet />
+            <ImpactStory />
             <Link to="/contact">Contact</Link>
         </div>
     )
