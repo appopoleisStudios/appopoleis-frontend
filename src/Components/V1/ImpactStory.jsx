@@ -54,4 +54,3 @@ function ImpactStory() {
 }
 
 export default ImpactStory
-
