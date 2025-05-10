@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import QualityInformation from '../Components/V1/QualityInformation'
-import Procurenet from '../Components/V1/Procurenet'
-import ImpactStory from '../components/V1/ImpactStory'
+import QualityInformation from '../Components/V1/QualityInformation.jsx'
+import Procurenet from '../Components/V1/Procurenet.jsx'
+import ImpactStory from '../components/V1/ImpactStory.jsx'
 
 
 function Home() {

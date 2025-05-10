@@ -38,7 +38,7 @@ function ImpactStory() {
                         {feature.highlight}
                       </span>
                       {feature.text.split(feature.highlight)[1]}
-                    </>
+                </>
                   ) : (
                     feature.text
                   )}
