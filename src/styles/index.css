@@ -6,3 +6,28 @@
 * {
     font-family: 'Montserrat', sans-serif !important;
 }
+
+
+.section-heading{
+    width: 55%;
+}
+
+.agile-button {
+    border: solid 2px var(--primary-light);
+    color: var(--primary-light);
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.agile-button:hover {
+    background-color: var(--primary-light);
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .section-heading {
+        width: 90%;
+    }
+}
