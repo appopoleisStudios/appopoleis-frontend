@@ -1,13 +1,16 @@
 import { QUALITY_INFORMATION_DATA } from "../../Utils/data/qualityInformation";
+import DotComponent from "./Dot.jsx";
 
 function QualityInformation() {
   return (
     <div className="container mx-auto px-4 py-12 max-w-8xl">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
+        <h2 style={{
+          width:"55%"
+        }} className="text-3xl md:text-4xl font-bold mb-4 m-auto leading-tight">
           Led by Our Guiding Principles, We Architect Software Solutions for
           Audacious Possibilities
-          <span className="text-3xl text-primary">.</span>
+        <DotComponent />
         </h2>
         <p className="max-w-4xl mx-auto text-text-secondary">
           Each one inspires us to stay true to ourselves while delivering best

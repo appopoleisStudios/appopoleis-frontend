@@ -4,6 +4,7 @@ import QualityInformation from '../Components/V1/QualityInformation'
 import Procurenet from '../Components/V1/Procurenet'
 import ImpactStory from '../Components/V1/ImpactStory'
 import OurWork from '../Components/V1/OurWork'
+import DeliveryProcess from '../components/V1/DeliveryProcess'
 
 
 
@@ -12,6 +13,7 @@ function Home() {
         <div className='flex flex-col items-center justify-center h-full'>
             <h1 className='text-red-700'>Home Page Coming Soon</h1>
             <QualityInformation />
+            <DeliveryProcess />
             <Procurenet />
             <ImpactStory />
             <OurWork />
