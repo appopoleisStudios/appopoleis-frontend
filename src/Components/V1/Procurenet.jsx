@@ -1,4 +1,4 @@
-import ProcurenetImage from "../../assets/Images/Home/procurenet.png";
+import ProcurenetImage from "../../assets/Images/Home/Procurenet.png";
 import { PROCURENET_DATA } from "../../Utils/data/procurenetData";
 
 function Procurenet() {
