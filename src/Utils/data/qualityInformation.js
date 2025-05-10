@@ -1,4 +1,3 @@
-// filepath: e:\appopoleis-frontend\src\Utils\data\qualityInformation.js
 
 export const QUALITY_INFORMATION_DATA = [
   {
