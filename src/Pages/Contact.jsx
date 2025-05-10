@@ -2,9 +2,8 @@ import { Link } from 'react-router-dom'
 
 function Contact() {
     return (
-        <div>
-            <h1>Contact Page</h1>
-            <p>If you have any questions, feel free to reach out!</p>
+        <div className='flex flex-col items-center justify-center h-screen'>
+            <h1 className='text-red-700'>Contact Page Coming Soon</h1>
             <Link to="/">Home</Link>
         </div>
     )
