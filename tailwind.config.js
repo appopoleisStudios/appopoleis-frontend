@@ -7,9 +7,11 @@ export default {
         primary: "var(--primary)",
         "primary-light": "var(--primary-light)",
         "primary-dark": "var(--primary-dark)",
-
         "text-primary": "var(--text-primary)",
         "text-secondary": "var(--text-secondary)",
+        "text-light": "var(--text-light)",
+
+        "gray-900": "var(--gray-900)",
 
         "border-light": "var(--border-light)",
         "border-medium": "var(--border-medium)",

@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import QualityInformation from '../components/V1/QualityInformation.jsx'
-import Procurenet from '../components/V1/Procurenet.jsx'
-import ImpactStory from '../components/V1/ImpactStory.jsx'
+import QualityInformation from '../Components/V1/QualityInformation'
+import Procurenet from '../Components/V1/Procurenet'
+import ImpactStory from '../Components/V1/ImpactStory'
+import OurWork from '../Components/V1/OurWork'
+
 
 
 function Home() {
@@ -12,6 +14,7 @@ function Home() {
             <QualityInformation />
             <Procurenet />
             <ImpactStory />
+            <OurWork />
             <Link to="/contact">Contact</Link>
         </div>
     )

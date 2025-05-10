@@ -6,12 +6,12 @@ function Procurenet() {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <div className="flex flex-col md:flex-row gap-8 items-center">
-        <div className="w-full md:w-1/2">
+      <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
+        <div className="w-full md:w-1/2 flex justify-start items-center">
           <img
             src={ProcurenetImage}
             alt={image.alt}
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="h-auto w-full rounded-lg   transition duration-300 ease-in-out shadow-lg w-1/2"
           />
         </div>
         <div className="w-full md:w-1/2">

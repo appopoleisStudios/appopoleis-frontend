@@ -3,6 +3,24 @@
   --primary-light: #22d3ee;
   --primary-dark: #0e7490;
 
+  .link-primary {
+    color: var(--primary);
+    transition: color 0.2s ease-in-out;
+  }
+
+  .link-primary:hover {
+    color: var(--primary-light);
+  }
+
+  .arrow-icon {
+    transform: translateX(0);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .link-with-arrow:hover .arrow-icon {
+    transform: translateX(4px);
+  }
+
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
   --gray-200: #e5e7eb;
