@@ -31,11 +31,7 @@ export const PRODUCT_LINKS = [
   {
     name: "Hello World - Online Grocery Delivery App",
     url: "#",
-  },
-  {
-    name: "Lana Rhodes - Online Grocery Delivery App",
-    url: "#",
-  },
+  }
 ];
 
 export const BOTTOM_LINKS = [
