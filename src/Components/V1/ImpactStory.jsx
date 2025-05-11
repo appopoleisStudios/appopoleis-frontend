@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { IMPACT_STORY_DATA } from "../../Utils/data/impactStory";
+import { IMPACTSTORY_DATA } from "../../Utils/data/impactStory";
 import ImpactStoryImage from "../../assets/Images/Home/impactstory.png"
 
 function ImpactStory() {
-    const { title, heading, subtitle, features, cta, image } = IMPACT_STORY_DATA;
+    const { title, heading, subtitle, features, cta, image } = IMPACTSTORY_DATA;
 
     return (
         <div className="container mx-auto px-4 py-12">

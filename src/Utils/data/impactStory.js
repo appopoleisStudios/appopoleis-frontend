@@ -1,8 +1,8 @@
-export const IMPACT_STORY_DATA = {
+export const IMPACTSTORY_DATA = {
   title: "Impact story",
   heading:
-    "How Offline to Online First Engagement Model Helped Our Client's Business Achieve Expected Outcomes",
-  subtitle: "Snapshot of features delivered",
+    "How Offline to Online First Engagement Model Helped Our Client’s Business Achieve Expected Outcomes",
+  introduction: "Snapshot of features delivered",
   features: [
     {
       id: 1,
@@ -21,12 +21,12 @@ export const IMPACT_STORY_DATA = {
       text: "Delivered price transparency through basket price comparison capability",
     },
   ],
-  cta: {
-    text: "View case study",
-    url: "#",
-  },
   image: {
-    src: "",
-    alt: "Copper brewing tanks in a brewery facility",
+    path: "ProcurenetImage",
+    alt: "Healthcare professional in a clean room with medical equipment",
+  },
+  cta: {
+    text: "Read the full story",
+    url: "/",
   },
 };
