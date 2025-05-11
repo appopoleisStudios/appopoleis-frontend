@@ -8,12 +8,14 @@ import AgileApproch from "../components/V1/AgileApproch";
 import OurImpact from "../Components/V1/OurImpact";
 import IndustryWeServe from "../Components/V1/IndustryWeServe";
 import Insights from '../Components/V1/Insights'
+import Hero from "../components/V1/Hero";
+import Services from "../components/V1/Services";
 
 function Home() {
   return (
     <>
       <div className="flex flex-col items-center justify-center h-full">
-        <h1 className="text-red-700">Home Page Coming Soon</h1>
+        <Hero />
         <QualityInformation />
         <DeliveryProcess />
         <Procurenet />
@@ -22,6 +24,7 @@ function Home() {
       </div>
       <AgileApproch />
       <div className="flex flex-col items-center justify-center h-full">
+        <Services />
         <OurClient />
         <OurImpact />
         <IndustryWeServe />
