@@ -10,6 +10,7 @@ import IndustryWeServe from "../Components/V1/IndustryWeServe";
 import Insights from '../Components/V1/Insights'
 import Hero from "../components/V1/Hero";
 import Services from "../components/V1/Services";
+import Footer from "../Components/V1/Footer";
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
         <OurImpact />
         <IndustryWeServe />
         <Insights />
+        <Footer />
       </div>
     </>
   );
