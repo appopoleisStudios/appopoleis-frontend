@@ -25,8 +25,4 @@ export const IMPACTSTORY_DATA = {
     path: "ProcurenetImage",
     alt: "Healthcare professional in a clean room with medical equipment",
   },
-  cta: {
-    text: "Read the full story",
-    url: "/",
-  },
 };
