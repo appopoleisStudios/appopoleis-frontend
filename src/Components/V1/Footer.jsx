@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom"
-import { SOCIAL_ICONS } from "../../Utils/data/footerData"
-import { COMPANY_LINKS } from "../../Utils/data/footerData"
-import { PRODUCT_LINKS } from "../../Utils/data/footerData"
-import { BOTTOM_LINKS } from "../../Utils/data/footerData"
+import { SOCIAL_ICONS, BOTTOM_LINKS, COMPANY_LINKS, PRODUCT_LINKS } from "../../Utils/data/footerData"
 import MICROSOFT_IMAGE from "../../assets/Images/Home/microdoft.png"
 
 const Footer = () => {
