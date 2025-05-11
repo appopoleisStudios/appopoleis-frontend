@@ -1,33 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "./color.css";
 @import "tailwindcss";
 
-
 * {
-    font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
-
-.section-heading{
-    width: 55%;
+.section-heading {
+  width: 55%;
 }
 
 .agile-button {
-    border: solid 2px var(--primary-light);
-    color: var(--primary-light);
-    background-color: transparent;
-    transition: background-color 0.3s, color 0.3s;
-    cursor: pointer;
+  border: solid 2px var(--primary-light);
+  color: var(--primary-light);
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
 }
 
 .agile-button:hover {
-    background-color: var(--primary-light);
-    color: white;
+  background-color: var(--primary-light);
+  color: white;
 }
 
-
 @media (max-width: 768px) {
-    .section-heading {
-        width: 90%;
+  .section-heading {
+    width: 90%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.animate-fade-out {
+  animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+/* Add responsive animations */
+@media (max-width: 768px) {
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
     }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease-in-out forwards;
+  }
+
+  .animate-fade-out {
+    animation: fadeOut 0.4s ease-in-out forwards;
+  }
 }
