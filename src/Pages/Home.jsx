@@ -6,6 +6,8 @@ import OurWork from "../components/V1/OurWork";
 import DeliveryProcess from "../components/V1/DeliveryProcess";
 import AgileApproch from "../components/V1/AgileApproch";
 import OurImpact from "../Components/V1/OurImpact";
+import IndustryWeServe from "../Components/V1/IndustryWeServe";
+import Insights from '../Components/V1/Insights'
 
 function Home() {
   return (
@@ -22,6 +24,8 @@ function Home() {
       <div className="flex flex-col items-center justify-center h-full">
         <OurClient />
         <OurImpact />
+        <IndustryWeServe />
+        <Insights />
       </div>
     </>
   );
