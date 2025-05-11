@@ -28,10 +28,10 @@ function ImpactStory() {
                         ))}
                     </ul>                    
                     <Link
-                        to={cta.url}
+                        to={cta?.url}
                         className="link-primary link-with-arrow font-medium flex items-center hover:underline"
                     >
-                        {cta.text}
+                        {cta?.text}
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 arrow-icon" viewBox="0 0 20 20" fill="currentColor">
                             <path
                                 fillRule="evenodd"
