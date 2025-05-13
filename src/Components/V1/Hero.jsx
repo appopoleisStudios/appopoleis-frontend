@@ -8,16 +8,21 @@ function Hero() {
 
             <div className='container w-full px-6 lg:px-10 absolute lg:bottom-20'>
                 <h2 className="text-left section-heading text-3xl md:text-4xl font-semibold mb-4  leading-tight">
-                    Amplifying operational excellence through Agile Software Development
+                Building Future-Ready Apps, Software & IoT Solutions for SMBs in the USA, UK, Middle East & India
                     {/* <DotComponent /> */}
                 </h2>
                 <p className="lg:w-3xl text-xl text-text-secondary">
-                    We engineer purpose-driven, customer centric outcomes for a global clientele of startups and enterprises, empowering them to grow into true-technology enabled leaders.
+                At Appopoleis, we partner with small and mid-sized businesses to design and deliver custom mobile apps, scalable web platforms, and IoT integrations that drive growth, streamline operations, and delight end users—whether you're in New York, London, Dubai or Bangalore.
                 </p>
 
-                <button className='bg-[#23c1cb] text-lg px-10 py-2 font-medium mt-4 text-white'>
-                    Connect With Us
-                </button>
+                <div className="flex gap-4 mt-4">
+                    <button className='bg-[#23c1cb] text-lg px-10 py-2 font-medium text-white'>
+                        Get a Free Consultation
+                    </button>
+                    <button className='bg-[#23c1cb] text-lg px-10 py-2 font-medium text-white'>
+                        Explore Case Studies
+                    </button>
+                </div>
             </div>
         </div>
     )
