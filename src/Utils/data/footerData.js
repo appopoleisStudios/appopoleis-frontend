@@ -25,7 +25,7 @@ export const PRODUCT_LINKS = [
     url: "#",
   },
   {
-    name: "Procurenet - eProcurement Software",
+    name: "Procurement - eProcurement Software",
     url: "#",
   },
   {
