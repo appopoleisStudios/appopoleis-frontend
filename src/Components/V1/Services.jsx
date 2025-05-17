@@ -25,12 +25,12 @@ function Services() {
     return (
         <div className='container mx-auto px-4 py-12 max-w-8xl grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-20'>
             <div className='text-center lg:text-left'>
-                <h2 className="section-heading text-3xl md:text-4xl font-bold mb-4 m-auto leading-tight">
-                    Services
+                <h2 className="section-heading text-3xl md:text-4xl font-bold mb-4 leading-tight">
+                    What We Deliver
                     <DotComponent />
                 </h2>
                 <p className="text-[color:var(--text-secondary)] text-lg">
-                    We spark change by bringing the right configuration of industry insights, leading technologies, top-notch talent, digital transformation practices and most advanced software to unlock new value that fits your specific requirements.
+                We catalyze innovation by blending deep industry knowledge, advanced technologies, elite talent, and proven digital transformation frameworks to create value tailored to your unique goals.
                 </p>
             </div>
             <div className='bg-[#f3f4f5] p-8 rounded-md w-full col-span-2'>

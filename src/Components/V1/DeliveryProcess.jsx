@@ -8,15 +8,13 @@ function DeliveryProcess() {
     <div className="container mx-auto px-4 py-20 max-w-8xl">
       <div className="text-center mb-12">
         <h2
-          className="section-heading text-3xl md:text-4xl font-bold mb-4 m-auto leading-tight"
+          className="section-heading text-3xl md:text-3xl font-bold mb-4 m-auto leading-tight"
         >
-          Driving Digital Transformation Through Custom Software Development
+          Empowering Digital Evolution with Custom Software Solutions
           <DotComponent />
         </h2>
         <p className="max-w-4xl mx-auto text-text-secondary">
-          We implement a prioritization framework, simulate real-life scenarios
-          and put into action the collective intelligence of our
-          interdisciplinary teams to deliver superlative digital experiences
+        We align interdisciplinary expertise, real-world simulations, and strategic prioritization to create impactful digital journeys.
         </p>
       </div>
       <div>
